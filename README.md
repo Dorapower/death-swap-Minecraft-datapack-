@@ -1,2 +1,2 @@
-# death-swap-Minecraft-datapack-
+# deathswap[Minecraft datapack]
 deathswap by Lokdora
