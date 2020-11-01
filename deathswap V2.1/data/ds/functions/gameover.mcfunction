@@ -1,6 +1,7 @@
 scoreboard players set ds gameStatus 0
 execute as @a[team=living] run title @a subtitle ["",{"selector":"@s"},{"text":" is the winner!"}]
 title @a title {"text":"Game Over!","color":"green"}
+kill @e[type=armor_stand,tag=marker]
 
 schedule clear ds:countdown/9
 schedule clear ds:countdown/8
